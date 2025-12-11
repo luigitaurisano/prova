@@ -1,0 +1,519 @@
+* {
+    font-family: 'Roboto';
+}
+
+
+.NavBar {
+    border: 5px solid #D9D9D9;
+    background-color: #D9D9D9;
+}
+
+.login {
+    border: 5px solid black;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.25s ease;
+}
+
+.login:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logoUniversita {
+    width: 40%;
+    transition: all 0.3s ease;
+}
+
+.logoUniversita:hover {
+    transform: scale(0.95);
+}
+
+.logoDipartimento {
+    width: 80%;
+    transition: all 0.3s ease;
+}
+
+.logoDipartimento:hover {
+    transform: scale(0.95);
+}
+
+.sezione {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    transition: all 0.25s ease;
+}
+
+.sezione:hover {
+    border: 0px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sezione-selezionata {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid #456998;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #456998;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-input {
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    background-color: #f3f2f2;
+}
+
+
+.prova {
+    margin: 10px;
+    height: 10000px;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.header {
+    margin-top: 20px;
+    background-color: none;
+    transition: all 0.5s ease;
+}
+
+.header-scrolled {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 100px;
+    background-color: #D9D9D9;
+
+    transition: all 0.5s ease;
+}
+
+
+
+.immagine-profilo {
+    width: 34%;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: all 0.3s ease;
+}
+
+.immagine-profilo:hover {
+    width: 31%;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+input:focus {
+    border-color: #335C96;
+    box-shadow: 0 0 0 3px rgba(51, 92, 150, 0.2);
+    outline: none;
+}
+
+
+
+
+.col-1dot5 {
+    width: 12.5%;
+}
+
+.col-8dot5 {
+    width: 70.8%;
+}
+
+.col-2dot5 {
+    width: 20.8%;
+}
+
+
+
+.custom-dropdown {
+    background: linear-gradient(180deg, #0d6efd 0%, #0b5ed7 100%);
+    color: #fff;
+    border-radius: 8px;
+    min-width: 12rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .25);
+    padding: .25rem 0;
+    border: none;
+}
+
+
+.card-progetti {
+    transition: all 0.2s ease;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    height: 425px;
+}
+
+.card-progetti:hover {
+    transform: scale(1.04);
+
+}
+
+
+
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    display: block;
+}
+
+
+.bentornato {
+    text-align: center;
+    font-size: 80px;
+}
+
+.sezione-accesso {
+    text-align: center;
+    border-left: 2px solid rgb(83, 83, 83);
+    min-height: 100%;
+    background-color: rgb(220, 219, 219);
+}
+
+.accedi-registrati {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #456998;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 3.5%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+.bg-dark-grey {
+    background-color: #466a98;
+}
+
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.footer-line {
+    border: 0;
+    border-top: 1px solid #d6d6d6;
+    width: 80%;
+    margin: 8px 0 16px 0;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+
+.social-icon {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    font-size: 1.3rem;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    background: #e1e1e1;
+}
+
+
+
+.input-contattaci {
+    text-decoration: none;
+    background: none;
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.input-contattaci:focus {
+    box-shadow: none;
+    border-color: black;
+
+}
+
+
+
+
+
+
+
+
+.contenuto {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.card-pcto {
+    background: linear-gradient(135deg, #e8f8fa 0%, #d1f0eb 100%);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #7ab8dc;
+}
+
+.card-pcto h3 {
+    color: #369ac2;
+    margin-top: 0;
+}
+
+.card-pcto a {
+    color: #2a8cb3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card-pcto a:hover {
+    color: #003399;
+}
+
+
+.card-primo-piano {
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to right, white 0%, rgb(231, 231, 231) 100%);
+    transition: all 0.3s ease;
+}
+
+.card-primo-piano:hover {
+    transform: scale(1.1);
+}
+
+.titolo {
+    background: linear-gradient(to right, white 0%, rgb(214, 214, 214) 50%, white 100%);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.laurea-header {
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 15px rgba(70, 106, 152, 0.3);
+}
+.laurea-triennale-header{
+    background: linear-gradient(135deg, #466a98 0%, #5a7fa8 100%);
+}
+.laurea-magistrale-header{
+    background: linear-gradient(135deg, #8B2B2B 0%, #B75A5A 100%);
+}
+
+.laurea-header h1 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.section-card h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.section-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(70, 106, 152, 0.1);
+    transition: all 0.3s ease;
+}
+
+.section-card-triennale{
+    border-top: 4px solid #466a98;
+}
+.section-card-triennale h2{
+    color: #466a98;
+    border-bottom: 3px solid #466a98;
+}
+.section-card-magistrale{
+    border-top: 4px solid #8B2B2B;
+
+}
+.section-card-magistrale h2{
+    color: #8B2B2B;
+    border-bottom: 3px solid #8B2B2B;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-card ul {
+    margin-left: 1rem;
+}
+
+.section-card li {
+    margin-bottom: 0.8rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.intro {
+    margin-bottom: 2.5rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(70, 106, 152, 0.1);
+    
+}
+
+.intro-triennale{
+    border-left: 5px solid #466a98;
+}
+.intro-triennale h1{
+    color: #466a98;
+}
+
+.intro-magistrale{
+    border-left: 5px solid #8B2B2B;
+}
+.intro-magistrale h1{
+    color: #8B2B2B;
+}
+
+.intro h1 {
+    margin-bottom: 1.5rem;
+}
+
+.intro p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.list-group-item {
+    border-color: #ddd;
+    background: #f9fbfd;
+}
+
+.list-group-item-triennale strong {
+    color: #466a98;
+}
+.list-group-item-magistrale strong{
+    color: #8B2B2B;
+}
+
+.icon-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.icon-box-triennale{
+    background: #466a98;
+} 
+.icon-box-magistrale{
+    background: #8B2B2B;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.contatti-button{
+    background-color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s ease;
+}
+
+.contatti-button:hover{
+    padding-left: 60px;
+    padding-right: 60px;
+}
